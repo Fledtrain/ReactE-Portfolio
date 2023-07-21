@@ -23,7 +23,7 @@ const Icons = () => {
 
   return (
     <>
-      <main className="flex flex-col items-center gap-16 py-10 bg-gray-100">
+      <main className="flex flex-col items-center gap-16 py-10 bg-gray-200">
         <div className="flex justify-center text-4xl font-semibold ">
           <h2>My Tech Stack</h2>
         </div>
@@ -48,14 +48,16 @@ const Languages = ({ languageObj }) => {
   return (
     <>
       <li>
-        <section className="relative">
-          <section className="w-32 flex justify-center pb-5 ">
-            <figure className="group">
+        <section className="relative md:mr-10 p-10">
+          <section className="lg:w-32 flex justify-center sm:w-20 ">
+            <figure className="group ">
               <img
                 src={languageObj.photoUrl}
-                alt=""
+                alt={languageObj.name}
                 className="group-hover:scale-90 group-hover:brightness-90 transform transition-all ease-in-out duration-150 "
                 aria-describedby={languageObj.name}
+                loading="lazy"
+                aria-label={languageObj.name}
               />
               <div className="pt-5 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-bold">
                 <p className="text-md italic">{languageObj.name}</p>
