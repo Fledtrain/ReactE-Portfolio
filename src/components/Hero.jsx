@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
       <section>
-        <div className="py-10 tracking-wide">
+        <div className="py-8 tracking-wide">
           <h1 className="text-4xl font-semibold flex items-center justify-center">
             Hello! I'm Joey W <span className="wave">👋</span>
           </h1>

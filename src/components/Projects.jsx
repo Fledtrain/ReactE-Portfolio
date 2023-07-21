@@ -60,7 +60,7 @@ const Projects = () => {
         </h2>
         {projectlng > 0 ? (
           <>
-            <div className="flex flex-wrap justify-center">
+            <div className="flex flex-wrap justify-center ">
               {projects.map((project) => (
                 <Project projectObj={project} key={project.index} />
               ))}
@@ -98,7 +98,7 @@ const Project = ({ projectObj }) => {
                 loading="lazy"
               />
             </figure>
-            <div className="flex justify-center p-5 space-x-5 text-2xl">
+            <div className="flex justify-center py-5 space-x-5 text-2xl">
               <figure className="group">
                 <a
                   href={projectObj.githubUrl}

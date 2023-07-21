@@ -30,7 +30,7 @@ const Icons = () => {
 
         {numLng > 0 ? (
           <>
-            <ul className="list-none grid grid-cols-2 md:grid-cols-4 gap-20">
+            <ul className="list-none grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 lg:gap-20">
               {languagesData.map((language) => (
                 <Languages languageObj={language} key={language.name} />
               ))}
@@ -49,7 +49,7 @@ const Languages = ({ languageObj }) => {
     <>
       <li>
         <section className="relative md:mr-10 p-10">
-          <section className="lg:w-32 flex justify-center sm:w-20 ">
+          <section className="lg:w-32 flex justify-center sm:w-24 ">
             <figure className="group ">
               <img
                 src={languageObj.photoUrl}
@@ -60,7 +60,7 @@ const Languages = ({ languageObj }) => {
                 aria-label={languageObj.name}
               />
               <div className="pt-5 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-bold">
-                <p className="text-md italic">{languageObj.name}</p>
+                <p className="text-md lg:text-lg italic">{languageObj.name}</p>
               </div>
             </figure>
           </section>
