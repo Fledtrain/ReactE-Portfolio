@@ -3,17 +3,17 @@ import React from "react";
 const Nav = () => {
   return (
     <>
-      <nav className="flex justify-between items-center bg-gray-200 py-8 px-20">
+      <nav className="flex justify-between items-center bg-gray-200 py-8 md:px-20">
         <figure className="w-32 ">
           <img
             src="android-chrome-512x512.png"
-            className="rounded-md"
+            className="rounded-md hidden md:block"
             alt="My Logo"
             loading="lazy"
           />
         </figure>
 
-        <ul className="flex items-center space-x-16 px-10">
+        <ul className="flex md:items-center space-x-8 px-20  md:space-x-16 md:px-10">
           <a href="#Project" aria-label="Go to Projects">
             <li>Projects</li>
           </a>
