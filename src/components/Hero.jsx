@@ -3,8 +3,11 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   const bio =
-    "I'm a College Student and a Front End Developer! I am currently studying TypeScript & React";
-
+    "Nice to meet you! I'm a College Student and a Front End Developer! I am currently studying TypeScript & React.";
+  const life =
+    "I'm taking CodePath's Technical Interview Prep Course and in September I'm taking CodePath's Intermediate Web Dev Course. 😄";
+  const social =
+    "In my free time I like to play video games and listen to music.";
   return (
     <>
       <section>
@@ -13,7 +16,9 @@ const Hero = () => {
             Hello! I'm Joey W <span className="wave">👋</span>
           </h1>
           <div>
-            <p className="text-md text-center py-4 px-2 text-xl">{bio}</p>
+            <p className="text-md text-center py-4 px-2 text-xl">
+              {bio} <br /> {life} <br /> {social} 
+            </p>
             <div className="flex justify-center text-4xl py-2 ">
               <figure className="group mr-10">
                 <a

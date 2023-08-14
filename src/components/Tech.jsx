@@ -1,6 +1,6 @@
 import React from "react";
 
-const Icons = () => {
+const Tech = () => {
   const languagesData = [
     {
       name: "React",
@@ -17,7 +17,35 @@ const Icons = () => {
     { name: "HTML", photoUrl: "html.png" },
     { name: "CSS", photoUrl: "CSS.png" },
     { name: "Python", photoUrl: "Pyth.png" },
-    { name: "Java", photoUrl: "Java.png" },
+    {
+      name: "Postman",
+      photoUrl:
+        "https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png",
+    },
+    {
+      name: "VSCode",
+      photoUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png",
+    },
+    {
+      name: "Github",
+      photoUrl:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png",
+    },
+    {
+      name: "Git",
+      photoUrl: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+    },
+    {
+      name: "Polypane",
+      photoUrl:
+        "https://polypane.app/static/5df5528946772487a6ab462ff2125f26/icon.png",
+    },
+    {
+      name: "JetBrains",
+      photoUrl:
+        "https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png",
+    },
   ];
   const numLng = languagesData.length;
 
@@ -25,7 +53,7 @@ const Icons = () => {
     <>
       <main className="flex flex-col items-center gap-16 py-10 bg-gray-200">
         <div className="flex justify-center text-4xl font-semibold ">
-          <h2>My Tech Stack</h2>
+          <h2>My Skills</h2>
         </div>
 
         {numLng > 0 ? (
@@ -70,4 +98,4 @@ const Languages = ({ languageObj }) => {
   );
 };
 
-export default Icons;
+export default Tech;
