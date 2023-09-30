@@ -58,7 +58,7 @@ const Tech = () => {
 
         {numLng > 0 ? (
           <>
-            <ul className="list-none grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 lg:gap-20">
+            <ul className="list-none grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 lg:gap-4">
               {languagesData.map((language) => (
                 <Languages languageObj={language} key={language.name} />
               ))}
@@ -76,9 +76,9 @@ const Languages = ({ languageObj }) => {
   return (
     <>
       <li>
-        <section className="relative md:mr-10 p-10">
-          <section className="lg:w-32 flex justify-center sm:w-24 ">
-            <figure className="group ">
+        <section className="relative md:mr-8 p-10">
+          <section className="sm:w-24 lg:w-28 flex justify-center ">
+            <figure className="group">
               <img
                 src={languageObj.photoUrl}
                 alt={languageObj.name}

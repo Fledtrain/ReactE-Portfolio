@@ -1,5 +1,6 @@
 
 import { FaGithub, FaLink } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   const projects = [
@@ -55,9 +56,16 @@ const Projects = () => {
   return (
     <>
       <section>
-        <h2 className="flex justify-center py-10 text-4xl font-semibold">
-          These are my Projects
-        </h2>
+        <div className="">
+          <h2 className="flex justify-center py-8  text-4xl font-semibold">
+            These are my Projects
+          </h2>
+          <Link to="/project">
+            <p className="text-center text-xl font-medium">
+              Click here for more Projects
+            </p>
+          </Link>
+        </div>
         {projectlng > 0 ? (
           <>
             <div className="flex flex-wrap justify-center ">
@@ -74,7 +82,7 @@ const Projects = () => {
   );
 };
 
-const Project = ({ projectObj }) => {
+export const Project = ({ projectObj }) => {
   return (
     <>
       <section
@@ -92,7 +100,7 @@ const Project = ({ projectObj }) => {
               <img
                 src={projectObj.image}
                 alt={projectObj.title}
-                className="w-full h-full object-cover cursor-pointer border-2 border-gray-300 hover:border-gray-400 focus:border-gray-600 duration-300 ease-in-out transform hover:scale-1"
+                className="w-full h-full rounded-md object-cover cursor-pointer border-2 border-gray-300 hover:border-gray-600 focus:border-gray-800 duration-300 ease-in-out transform "
                 onClick={() => window.open(projectObj.imgUrl)}
                 target="_blank"
                 loading="lazy"
@@ -136,3 +144,4 @@ const Project = ({ projectObj }) => {
   );
 };
 export default Projects;
+

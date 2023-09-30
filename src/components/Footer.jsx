@@ -1,17 +1,16 @@
 
-
 const Footer = () => {
   return (
     <>
       <footer id="Footer" className=" bg-gray-500 text-white py-8 px-20">
-        <section className="flex justify-center items-center md:space-x-48 space-x-20  py-3">
+        <section className="flex justify-center items-center md:space-x-48 space-x-20 py-3 ">
           <a
             href="https://github.com/Fledtrain"
             target="_blank"
             rel="noreferrer"
             aria-label="Github"
           >
-            <div>Github</div>
+            <div className="hover:underline no-underline transition-all ease-in-out duration-150 ">Github</div>
           </a>
           <figure className="w-24">
             <img
@@ -27,7 +26,7 @@ const Footer = () => {
             rel="noreferrer"
             aria-label="LinkedIn"
           >
-            <div>LinkedIn</div>
+            <div className="hover:underline no-underline transition-all ease-in-out duration-150">LinkedIn</div>
           </a>
         </section>
         <div>
