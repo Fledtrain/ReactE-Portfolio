@@ -15,7 +15,7 @@ const Nav = () => {
           </figure>
         </Link>
 
-        <ul className="text-lg md:text-xl flex md:items-center space-x-8 px-20 sm:space-x-28 sm:px-28  md:space-x-16 md:px-10">
+        <ul className="text-lg md:text-xl flex md:items-center space-x-8 pr-10 sm:space-x-28 sm:px-28  md:space-x-16 md:px-10">
           <a href="#Project" aria-label="Go to Projects">
             <li>Projects</li>
           </a>
