@@ -57,7 +57,27 @@ const Project = () => {
     return (
         <>
             <section >
-                <h1 className="p-4 text-center text-2xl font-semibold">These are my CodePath Projects from WEB102</h1>
+                <div className="p-4 text-center ">
+                    <h1 className="text-2xl font-semibold">These are my CodePath Projects from WEB102</h1>
+                    <div className="xl:pr-[20rem] xl:pl-[20rem] break-words text-xl text-left leading-relaxed">
+                        <p>From September 16th 2023 to November 18th 2023,
+                            I was accepted into
+                            <span className="font-semibold"> { }
+                                CodePaths 10 Week Intermediate Web Development Course! <br />
+                            </span>
+                            I first learned the fundamentals of building an interactive Frontend with React
+                            , and
+                            then leading into learning how to Respond to Complex User Input and Displaying data from an API. <br />
+                            For the last 4 weeks I learned how to Implement Navigation with React Router and using a Database with Supabase.
+                        </p>
+                        <p>
+                            The Capstone Project was
+                            <span className="font-semibold"> { }
+                                GamerHub
+                            </span> where I created a Social Media Platform (Similiar to Twitter) but for Gamers.
+                        </p>
+                    </div>
+                </div>
                 {projectlng > 0 ? (
                     <>
                         <div className="flex flex-wrap justify-center ">
