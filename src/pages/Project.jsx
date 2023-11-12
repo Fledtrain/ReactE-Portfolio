@@ -58,7 +58,7 @@ const Project = () => {
         <>
             <section >
                 <div className="p-4 text-center ">
-                    <h1 className="text-2xl font-semibold">These are my CodePath Projects from WEB102</h1>
+                    <h1 className="text-2xl font-semibold mt-2 mb-5">These are my CodePath Projects from WEB102</h1>
                     <div className="xl:pr-[20rem] xl:pl-[20rem] break-words text-xl text-left leading-relaxed">
                         <p>From September 16th 2023 to November 18th 2023,
                             I was accepted into
