@@ -10,7 +10,7 @@ const Footer = () => {
             rel="noreferrer"
             aria-label="Github"
           >
-            <div className="hover:underline no-underline transition-all ease-in-out duration-150 ">Github</div>
+            <p className="hover:underline no-underline transition-all ease-in-out duration-150 ">Github</p>
           </a>
           <figure className="w-24">
             <img
@@ -26,7 +26,7 @@ const Footer = () => {
             rel="noreferrer"
             aria-label="LinkedIn"
           >
-            <div className="hover:underline no-underline transition-all ease-in-out duration-150">LinkedIn</div>
+            <p className="hover:underline no-underline transition-all ease-in-out duration-150">LinkedIn</p>
           </a>
         </section>
         <div>
