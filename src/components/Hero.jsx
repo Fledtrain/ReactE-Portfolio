@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
  */
 const Hero = () => {
   const bio =
-    "Nice to meet you! I'm a College Student and a Front End Developer! I am currently studying React.";
+    "Nice to meet you! I'm a College Student and a FrontEnd Developer! I am currently studying React.";
   const life =
     "I completed CodePath's Technical Interview Prep Course and I'm taking CodePath's Intermediate Web Dev Course. 😄";
   const social =
@@ -18,7 +18,7 @@ const Hero = () => {
             Hello! I'm Joey W <span className="wave">👋</span>
           </h1>
           <div>
-            <p className="text-md text-center py-4 px-2 text-xl">
+            <p className="text-md text-center py-4 px-2 text-xl leading-relaxed">
               {bio} <br /> {life} <br /> {social}
             </p>
             <div className="flex justify-center text-4xl py-2 ">
