@@ -1,4 +1,7 @@
 
+/** Returns the footer component
+ * @returns {JSX.Element} JSX Element
+ */
 const Footer = () => {
   return (
     <>

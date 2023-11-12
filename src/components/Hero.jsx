@@ -1,5 +1,8 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+/** Returns the Hero section
+ * @returns {JSX.Element} JSX Element
+ */
 const Hero = () => {
   const bio =
     "Nice to meet you! I'm a College Student and a Front End Developer! I am currently studying React.";

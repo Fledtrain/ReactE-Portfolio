@@ -1,5 +1,7 @@
 
-
+/** Returns the languages I know
+ * @returns {JSX.Element} JSX Element
+ */
 const Tech = () => {
   const languagesData = [
     {
@@ -72,6 +74,12 @@ const Tech = () => {
   );
 };
 
+/** Returns the images of the languages
+ * @param {Object} languageObj
+ * @param {string} languageObj.name
+ * @param {string} languageObj.photoUrl
+ * @returns {JSX.Element} JSX Element
+ */
 const Languages = ({ languageObj }) => {
   return (
     <>

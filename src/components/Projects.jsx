@@ -2,6 +2,9 @@
 import { FaGithub, FaLink } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+/** Returns the Projects page 
+ * @returns {JSX.Element} JSX Element
+ */
 const Projects = () => {
   const projects = [
     {
@@ -81,7 +84,17 @@ const Projects = () => {
     </>
   );
 };
-
+/** Returns the images and Link to all of the projects
+ * @param {Object} projectObj
+ * @param {string} projectObj.title
+ * @param {string} projectObj.description
+ * @param {string} projectObj.languages
+ * @param {string} projectObj.image
+ * @param {string} projectObj.imgUrl
+ * @param {string} projectObj.githubUrl
+ * @param {number} projectObj.index
+ * @returns {JSX.Element} JSX Element
+ */
 export const Project = ({ projectObj }) => {
   return (
     <>

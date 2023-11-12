@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom"
 import { Project as Codepath } from "../components/Projects"
 
+/** Returns the Projects page for CodePath WEB102
+ * @returns {JSX.Element} JSX Element
+ */
 const Project = () => {
     const projects = [
         // {

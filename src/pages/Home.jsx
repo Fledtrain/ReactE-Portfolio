@@ -2,6 +2,9 @@ import Hero from "../components/Hero";
 import Tech from "../components/Tech";
 import Projects from "../components/Projects";
 
+/** Returns the Home page
+ * @returns {JSX.Element} JSX Element
+ */
 const Home = () => {
   return (
     <>
