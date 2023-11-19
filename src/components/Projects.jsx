@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: "Realtor React Clone",
       description: "Created with ",
-      languages: "React, TailwindCSS & Firebase",
+      languages: "React, TailwindCSS, & Firebase",
       image: "Realtor.png",
       imgUrl: "https://realtorreactclone.firebaseapp.com/",
       githubUrl: "https://github.com/Fledtrain/ReactRealtorClone",

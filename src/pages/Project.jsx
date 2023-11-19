@@ -9,7 +9,7 @@ const Project = () => {
         {
             title: "The GamerHub",
             description: "Created with ",
-            languages: "React, TailwindCSS, DaisyUI & Supabase",
+            languages: "React, TailwindCSS, DaisyUI, & Supabase",
             image: "gamerhub.png",
             imgUrl: "https://fledsgamerhub.netlify.app/",
             githubUrl: "https://github.com/Fledtrain/web102_hobbyhub",
@@ -18,7 +18,7 @@ const Project = () => {
         {
             title: "WeatherReporter",
             description: "Created with ",
-            languages: "React, TailwindCSS & DaisyUI",
+            languages: "React, TailwindCSS, & DaisyUI",
             image: "weatherReporter.png",
             imgUrl: "https://weatherreporterapp.netlify.app/",
             githubUrl: "https://github.com/Fledtrain/web102_datadashboard",
@@ -27,7 +27,7 @@ const Project = () => {
         {
             title: "Gamer Creator",
             description: "Created with ",
-            languages: "React, TailwindCSS, DaisyUI & Supabase",
+            languages: "React, TailwindCSS, DaisyUI, & Supabase",
             image: "gamercreator.png",
             imgUrl: "https://gamermates.netlify.app/",
             githubUrl: "https://github.com/Fledtrain/web102_crewmates",
