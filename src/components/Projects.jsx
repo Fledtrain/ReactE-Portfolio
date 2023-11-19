@@ -63,9 +63,9 @@ const Projects = () => {
           <h2 className="flex justify-center py-8  text-4xl font-semibold">
             These are my Projects
           </h2>
-          <Link to="/project">
-            <p className="text-center text-xl font-medium">
-              Click here for more Projects
+          <Link to="/">
+            <p className="text-center text-2xl underline hover:text-red-900 hover:font-bold font-medium mb-5">
+              Click here to go back home
             </p>
           </Link>
         </div>
