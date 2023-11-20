@@ -12,7 +12,7 @@ const Project = () => {
             languages: "React, TailwindCSS, DaisyUI, & Supabase",
             image: "gamerhub.png",
             imgUrl: "https://fledsgamerhub.netlify.app/",
-            githubUrl: "https://github.com/Fledtrain/web102_hobbyhub",
+            githubUrl: "https://fledsgamerhub.netlify.app/",
             index: 0,
         },
         {
@@ -21,7 +21,7 @@ const Project = () => {
             languages: "React, TailwindCSS, & DaisyUI",
             image: "weatherReporter.png",
             imgUrl: "https://weatherreporterapp.netlify.app/",
-            githubUrl: "https://github.com/Fledtrain/web102_datadashboard",
+            githubUrl: "https://weatherreporterapp.netlify.app/",
             index: 1,
         },
         {
@@ -30,7 +30,7 @@ const Project = () => {
             languages: "React, TailwindCSS, DaisyUI, & Supabase",
             image: "gamercreator.png",
             imgUrl: "https://gamermates.netlify.app/",
-            githubUrl: "https://github.com/Fledtrain/web102_crewmates",
+            githubUrl: "https://gamermates.netlify.app/",
             index: 2,
         },
         {
@@ -39,7 +39,7 @@ const Project = () => {
             languages: "React & TailwindCSS",
             image: "flashcard.png",
             imgUrl: "https://fledtrainflashcards.netlify.app/",
-            githubUrl: "https://github.com/Fledtrain/web102_flashcards",
+            githubUrl: "https://fledtrainflashcards.netlify.app/",
             index: 3,
         },
         {
@@ -48,7 +48,7 @@ const Project = () => {
             languages: "React & CSS",
             image: "communityBoard.png",
             imgUrl: "https://communityboard.netlify.app/",
-            githubUrl: "https://github.com/Fledtrain/web102_communityBoard",
+            githubUrl: "https://communityboard.netlify.app/",
             index: 4,
         },
     ];
