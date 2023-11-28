@@ -94,6 +94,7 @@ const Languages = ({ languageObj }) => {
                 aria-describedby={languageObj.name}
                 loading="lazy"
                 aria-label={languageObj.name}
+                
               />
               <div className="pt-5 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-bold">
                 <p className="text-md lg:text-lg italic">{languageObj.name}</p>
