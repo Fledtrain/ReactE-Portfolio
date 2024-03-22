@@ -12,7 +12,7 @@ const Project = () => {
             languages: "React, TailwindCSS, DaisyUI, & Supabase",
             image: "gamerhub.png",
             imgUrl: "https://fledsgamerhub.netlify.app/",
-            githubUrl: "https://fledsgamerhub.netlify.app/",
+            githubUrl: "https://github.com/Fledtrain/web102_hobbyhub",
             index: 0,
         },
         {
@@ -21,7 +21,7 @@ const Project = () => {
             languages: "React, TailwindCSS, & DaisyUI",
             image: "weatherReporter.png",
             imgUrl: "https://weatherreporterapp.netlify.app/",
-            githubUrl: "https://weatherreporterapp.netlify.app/",
+            githubUrl: "https://github.com/Fledtrain/web102_datadashboard",
             index: 1,
         },
         {
@@ -30,7 +30,7 @@ const Project = () => {
             languages: "React, TailwindCSS, DaisyUI, & Supabase",
             image: "gamercreator.png",
             imgUrl: "https://gamermates.netlify.app/",
-            githubUrl: "https://gamermates.netlify.app/",
+            githubUrl: "https://github.com/Fledtrain/web102_crewmates",
             index: 2,
         },
         {
@@ -39,7 +39,7 @@ const Project = () => {
             languages: "React & TailwindCSS",
             image: "flashcard.png",
             imgUrl: "https://fledtrainflashcards.netlify.app/",
-            githubUrl: "https://fledtrainflashcards.netlify.app/",
+            githubUrl: "https://github.com/Fledtrain/web102_flashcards",
             index: 3,
         },
         {
@@ -48,7 +48,7 @@ const Project = () => {
             languages: "React & CSS",
             image: "communityBoard.png",
             imgUrl: "https://communityboard.netlify.app/",
-            githubUrl: "https://communityboard.netlify.app/",
+            githubUrl: "https://github.com/Fledtrain/web102_communityBoard",
             index: 4,
         },
     ];
@@ -70,16 +70,16 @@ const Project = () => {
                             <span className="font-semibold"> { }
                                 CodePaths 10 Week Intermediate Web Development Course! <br />
                             </span>
-                            I first learned the fundamentals of building an interactive Frontend with React
+                            For the first 6 weeks I learned the fundamentals of building an interactive frontend with React
                             , and
-                            then leading into learning how to Respond to Complex User Input and Displaying data from an API. <br />
-                            For the last 4 weeks I learned how to Implement Navigation with React Router and using a Database with Supabase.
+                            then leading into learning how to respond to complex user input and displaying data from an API. <br />
+                            For the last 4 weeks I learned how to implement navigation with React Router and using Supabase.
                         </p>
                         <p>
                             The Capstone Project was
                             <span className="font-semibold"> { }
                                 GamerHub
-                            </span> where I created a Social Media Platform (Similiar to Twitter) but for Gamers.
+                            </span> where I created a social media platform (similiar to X (formerly Twitter)) but for gamers.
                         </p>
                     </div>
                 </div>
