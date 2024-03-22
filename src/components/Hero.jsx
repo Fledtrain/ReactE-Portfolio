@@ -5,9 +5,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
  */
 const Hero = () => {
   const bio =
-    "Nice to meet you! I'm a College Student and a FrontEnd Developer! I am currently studying React.";
+    "Nice to meet you! I'm a college Grad and a Software Engineer! I am currently studying React.";
   const life =
-    "I completed CodePath's Technical Interview Prep Course and I'm taking CodePath's Intermediate Web Dev Course. 😄";
+    "I have completed CodePath's Technical Interview Prep Course and CodePath's Intermediate Web Dev Course. 😄";
   const social =
     "In my free time I like to play video games and listen to music.";
   return (
